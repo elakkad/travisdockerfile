@@ -12,3 +12,4 @@ RUN apt-get -y install ruby-dev
 RUN gem install travis
 RUN gem install pry
 RUN apt-get -y install git vim
+RUN apt-get install -y curl
